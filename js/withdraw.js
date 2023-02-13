@@ -15,6 +15,7 @@ document.getElementById('withdraw-btn').addEventListener('click',function(){
      const TotalBal=document.getElementById('balance-prev');
      const totalBalnew=TotalBal.innerText;
      const newBelence=totalBalnew-withdrawBalNum;
+    
      TotalBal.innerText=newBelence;
       
 })
